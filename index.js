@@ -11,6 +11,7 @@ const courses = [
 {id:8, name: 'Course 8'},
 {id:9, name: 'Course 9'},
 {id:10, name: 'Course 10'},
+{id:11, name: 'Course 11'},
 ]
 app.get('/api/courses', (req, res) =>{
 res.send(courses);
